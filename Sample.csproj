@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-ios</TargetFramework>
+    <SupportedOSPlatformVersion>14.2</SupportedOSPlatformVersion>
+    <OutputType>exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="[5.0.0.11]" />
+    <!--<PackageReference Include="Xamarin.Essentials" Version="1.7.0" />-->
+  </ItemGroup>
+</Project>
